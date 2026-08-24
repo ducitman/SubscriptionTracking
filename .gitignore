@@ -1,0 +1,14 @@
+# Dependencies are installed by npm during local development and deployment.
+node_modules/
+
+# Generated build output.
+dist/
+
+# Local Vercel metadata and npm cache.
+.vercel/
+.npm-cache/
+
+# Environment files may contain secrets.
+.env
+.env.local
+.env.*.local
